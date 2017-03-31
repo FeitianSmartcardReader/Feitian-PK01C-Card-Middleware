@@ -11,7 +11,6 @@
 		5243A2FE17D5DEF90026B4DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243A2FD17D5DEF90026B4DE /* UIKit.framework */; };
 		5243A30017D5DEF90026B4DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243A2FF17D5DEF90026B4DE /* Foundation.framework */; };
 		5243A30217D5DEF90026B4DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5243A30117D5DEF90026B4DE /* CoreGraphics.framework */; };
-		AC34B5A81AB2BAC60047DAFB /* libiRockey301_ccid_ST_V1.30.0_release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC34B5A71AB2BAC60047DAFB /* libiRockey301_ccid_ST_V1.30.0_release.a */; };
 		AC34B5AA1AB2BAD80047DAFB /* libPKICARDlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC34B5A91AB2BAD80047DAFB /* libPKICARDlib.a */; };
 		ACF45FA91A49381E00314ABE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF45FA61A49381E00314ABE /* main.m */; };
 		ACF45FAA1A49381E00314ABE /* Text Signature-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ACF45FA71A49381E00314ABE /* Text Signature-Info.plist */; };
@@ -22,6 +21,7 @@
 		ACF45FB61A49386500314ABE /* ESViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF45FB41A49386500314ABE /* ESViewController.m */; };
 		ACF45FB91A49387200314ABE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF45FB71A49387200314ABE /* MainStoryboard.storyboard */; };
 		ACF45FC01A4938BA00314ABE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACF45FBE1A4938BA00314ABE /* InfoPlist.strings */; };
+		B5C3774B1E8E225C00E30577 /* libiRockey301_ccid_1.32.0_debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C377491E8E225C00E30577 /* libiRockey301_ccid_1.32.0_debug.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,6 @@
 		5243A2FD17D5DEF90026B4DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5243A2FF17D5DEF90026B4DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5243A30117D5DEF90026B4DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AC34B5A71AB2BAC60047DAFB /* libiRockey301_ccid_ST_V1.30.0_release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiRockey301_ccid_ST_V1.30.0_release.a; path = TextSignature/libiRockey301_ccid_ST_V1.30.0_release.a; sourceTree = "<group>"; };
 		AC34B5A91AB2BAD80047DAFB /* libPKICARDlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPKICARDlib.a; path = TextSignature/libPKICARDlib.a; sourceTree = "<group>"; };
 		ACF45FA61A49381E00314ABE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TextSignature/main.m; sourceTree = SOURCE_ROOT; };
 		ACF45FA71A49381E00314ABE /* Text Signature-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Text Signature-Info.plist"; path = "TextSignature/Text Signature-Info.plist"; sourceTree = SOURCE_ROOT; };
@@ -44,6 +43,11 @@
 		ACF45FB41A49386500314ABE /* ESViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ESViewController.m; path = TextSignature/ESViewController.m; sourceTree = SOURCE_ROOT; };
 		ACF45FB81A49387200314ABE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = TextSignature/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
 		ACF45FBF1A4938BA00314ABE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = TextSignature/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		B5C377441E8E225C00E30577 /* ft301u.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ft301u.h; sourceTree = "<group>"; };
+		B5C377451E8E225C00E30577 /* ReaderInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReaderInterface.h; sourceTree = "<group>"; };
+		B5C377461E8E225C00E30577 /* winscard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winscard.h; sourceTree = "<group>"; };
+		B5C377471E8E225C00E30577 /* wintypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wintypes.h; sourceTree = "<group>"; };
+		B5C377491E8E225C00E30577 /* libiRockey301_ccid_1.32.0_debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiRockey301_ccid_1.32.0_debug.a; sourceTree = "<group>"; };
 		F2261BE717E7F2AD00166F00 /* auxiliary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auxiliary.h; sourceTree = "<group>"; };
 		F2261BE817E7F2AD00166F00 /* cryptoki.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cryptoki.h; sourceTree = "<group>"; };
 		F2261BE917E7F2AD00166F00 /* cryptoki_ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cryptoki_ext.h; sourceTree = "<group>"; };
@@ -59,11 +63,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC34B5A81AB2BAC60047DAFB /* libiRockey301_ccid_ST_V1.30.0_release.a in Frameworks */,
 				5241951817D84D2B0048EC8C /* ExternalAccessory.framework in Frameworks */,
 				AC34B5AA1AB2BAD80047DAFB /* libPKICARDlib.a in Frameworks */,
 				5243A2FE17D5DEF90026B4DE /* UIKit.framework in Frameworks */,
 				5243A30017D5DEF90026B4DE /* Foundation.framework in Frameworks */,
+				B5C3774B1E8E225C00E30577 /* libiRockey301_ccid_1.32.0_debug.a in Frameworks */,
 				5243A30217D5DEF90026B4DE /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,8 +95,8 @@
 		5243A2FC17D5DEF90026B4DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B5C377421E8E225C00E30577 /* Lib */,
 				AC34B5A91AB2BAD80047DAFB /* libPKICARDlib.a */,
-				AC34B5A71AB2BAC60047DAFB /* libiRockey301_ccid_ST_V1.30.0_release.a */,
 				5241951717D84D2B0048EC8C /* ExternalAccessory.framework */,
 				5243A2FD17D5DEF90026B4DE /* UIKit.framework */,
 				5243A2FF17D5DEF90026B4DE /* Foundation.framework */,
@@ -127,6 +131,35 @@
 				ACF45FA81A49381E00314ABE /* Text Signature-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5C377421E8E225C00E30577 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B5C377431E8E225C00E30577 /* include */,
+				B5C377481E8E225C00E30577 /* lib */,
+			);
+			name = Lib;
+			path = ../../Lib;
+			sourceTree = "<group>";
+		};
+		B5C377431E8E225C00E30577 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B5C377441E8E225C00E30577 /* ft301u.h */,
+				B5C377451E8E225C00E30577 /* ReaderInterface.h */,
+				B5C377461E8E225C00E30577 /* winscard.h */,
+				B5C377471E8E225C00E30577 /* wintypes.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		B5C377481E8E225C00E30577 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				B5C377491E8E225C00E30577 /* libiRockey301_ccid_1.32.0_debug.a */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 		F2261BE617E7F2AD00166F00 /* pkcs11 */ = {
@@ -173,6 +206,12 @@
 				CLASSPREFIX = ES;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					5243A2F917D5DEF90026B4DE = {
+						DevelopmentTeam = PL9NCP8CG6;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 5243A2F517D5DEF90026B4DE /* Build configuration list for PBXProject "Text Signature" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -299,14 +338,21 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PL9NCP8CG6;
+				ENABLE_BITCODE = NO;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TextSignature/Text Signature-Prefix.pch";
 				INFOPLIST_FILE = "TextSignature/Text Signature-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TextSignature";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../Lib/lib/\"",
+					"\"$(SRCROOT)/TextSignature/\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ftsafe.Text-Signature.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos8.1;
+				SDKROOT = iphoneos10.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -317,14 +363,21 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PL9NCP8CG6;
+				ENABLE_BITCODE = NO;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TextSignature/Text Signature-Prefix.pch";
 				INFOPLIST_FILE = "TextSignature/Text Signature-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/TextSignature";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../Lib/lib/\"",
+					"\"$(SRCROOT)/TextSignature/\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ftsafe.Text-Signature.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos8.1;
+				SDKROOT = iphoneos10.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
